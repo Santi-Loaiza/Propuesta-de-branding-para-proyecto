@@ -91,3 +91,10 @@ h6 {
 #color-5 {
     color: var(--fifth-color);
 }
+
+@media (max-width:  768px) {
+    .flexbox div{
+        height: 60px;
+        font-size: 0.9rem;
+    }
+}
