@@ -11,7 +11,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+header{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
 h1,
 h2,
 h3,
@@ -91,10 +95,13 @@ h6 {
 #color-5 {
     color: var(--fifth-color);
 }
-
+.nota{
+    padding: 10px;
+}
 @media (max-width:  768px) {
     .flexbox div{
         height: 60px;
         font-size: 0.9rem;
+        margin: 6px;
     }
 }
