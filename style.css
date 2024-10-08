@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #7d0505;
+    --second-color: #8e5454;
+    --third-color: #9a8b87;
+    --fourth-color: #0e5f01;
+    --fifth-color: #1c3504;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    margin: 20px;
+}
+
+.paleta,
+.paleta-en-color {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.paleta h2,
+.paleta-en-negro h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.paleta-en-negro {
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+#box-1 {
+    background-color: var(--primary-color);
+}
+
+#box-2 {
+    background-color: var(--second-color);
+}
+
+#box-3 {
+    background-color: var(--third-color);
+}
+
+#box-4 {
+    background-color: var(--fourth-color);
+}
+
+#box-5 {
+    background-color: var(--fifth-color);
+}
+
+#color-1 {
+    color: var(--primary-color);
+}
+
+#color-2 {
+    color: var(--second-color);
+}
+
+#color-3 {
+    color: var(--third-color);
+}
+
+#color-4 {
+    color: var(--fourth-color);
+}
+
+#color-5 {
+    color: var(--fifth-color);
+}
